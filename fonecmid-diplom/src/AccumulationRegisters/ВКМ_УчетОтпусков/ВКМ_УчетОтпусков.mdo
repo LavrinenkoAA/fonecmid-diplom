@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b05875f-fd48-46eb-9647-444ebbb470da">
+  <producedTypes>
+    <selectionType typeId="f2bef21a-b4a1-4e9f-90a1-459d8c6b8b4e" valueTypeId="489449ba-3ca1-4d26-82e8-9008153de2d9"/>
+    <listType typeId="128b9df3-b1c2-447a-8de4-0202bc1b4208" valueTypeId="4db7b661-398a-400e-9ce3-9cc81183b4d5"/>
+    <managerType typeId="697e8f86-9c26-4154-9f9d-da21e704b277" valueTypeId="b66b7afc-9c65-48f6-8804-e375ec411dbb"/>
+    <recordSetType typeId="9a095ede-57d5-4097-8802-cc2e4ad045b1" valueTypeId="fce4160b-0b74-4bb3-a414-22088d86023b"/>
+    <recordKeyType typeId="dc384747-de0f-42c4-bc0b-05a3642f1bce" valueTypeId="325d9906-e528-4602-a878-7781ede9ace1"/>
+    <recordType typeId="58e57e00-2fb1-4b7a-8d29-321618db2db9" valueTypeId="b43d72c4-dade-4c16-a9cd-818422ced9dc"/>
+  </producedTypes>
+  <name>ВКМ_УчетОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>ВКМ учет отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="77f6fcc3-4c6a-40dd-8ade-5c24ebb6b7a5">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1763cdd5-c869-4296-901f-9c6c027ba086">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
