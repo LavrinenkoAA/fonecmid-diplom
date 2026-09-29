@@ -37,7 +37,7 @@
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
-  <content>Report.ВКМ_РасчётыССотрудниками</content>
+  <content>Report.ВКМ_РасчетыССотрудниками</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
